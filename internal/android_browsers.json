@@ -1,0 +1,130 @@
+{
+  "Chrome": {
+    "package": "com.android.chrome",
+    "activity": "com.google.android.apps.chrome.Main",
+    "type": "chrome"
+  },
+  "Chrome Beta": {
+    "package": "com.chrome.beta",
+    "activity": "com.google.android.apps.chrome.Main",
+    "type": "chrome"
+  },
+  "Chrome Dev": {
+    "package": "com.chrome.dev",
+    "activity": "com.google.android.apps.chrome.Main",
+    "type": "chrome"
+  },
+  "Chrome Canary": {
+    "package": "com.chrome.canary",
+    "activity": "com.google.android.apps.chrome.Main",
+    "type": "chrome"
+  },
+  "Chromium": {
+    "package": "org.chromium.chrome",
+    "activity": "com.google.android.apps.chrome.Main",
+    "type": "chrome"
+  },
+  "Chrome Black Box": {
+    "package": "com.android.chrome",
+    "activity": "com.google.android.apps.chrome.Main",
+    "startupDelay": 10,
+    "startPage": "http://www.webpagetest.org/orange.html",
+    "directories": ["cache", "files", "app_chrome", "app_tabs", "app_textures"],
+    "type": "blackbox"
+  },
+  "Chrome Beta Black Box": {
+    "package": "com.chrome.beta",
+    "activity": "com.google.android.apps.chrome.Main",
+    "startupDelay": 10,
+    "startPage": "http://www.webpagetest.org/orange.html",
+    "directories": ["cache", "files", "app_chrome", "app_tabs", "app_textures"],
+    "type": "blackbox"
+  },
+  "Chrome Dev Black Box": {
+    "package": "com.chrome.dev",
+    "activity": "com.google.android.apps.chrome.Main",
+    "startupDelay": 10,
+    "startPage": "http://www.webpagetest.org/orange.html",
+    "directories": ["cache", "files", "app_chrome", "app_tabs", "app_textures"],
+    "type": "blackbox"
+  },
+  "Chrome Canary Black Box": {
+    "package": "com.chrome.canary",
+    "activity": "com.google.android.apps.chrome.Main",
+    "startupDelay": 10,
+    "startPage": "http://www.webpagetest.org/orange.html",
+    "directories": ["cache", "files", "app_chrome", "app_tabs", "app_textures"],
+    "type": "blackbox"
+  },
+  "UC Mini": {
+    "package": "com.uc.browser.en", 
+    "activity": "com.uc.browser.ActivityBrowser",
+    "videoFlags": ["--findstart", "25", "--notification"],
+    "directories": ["cache", "databases", "files", "app_webview", "user", "wa"],
+    "startupDelay": 10,
+    "type": "blackbox"
+  },
+  "UC Browser": {
+    "package": "com.UCMobile.intl",
+    "activity": "com.UCMobile.main.UCMobile",
+    "videoFlags": ["--findstart", "25", "--notification"],
+    "directories": ["cache", "databases", "files", "app_webview", "crash", "temp", "user", "wa"],
+    "startupDelay": 15,
+    "type": "blackbox"
+  },
+  "Opera": {
+    "package": "com.opera.browser",
+    "activity": "com.opera.Opera",
+    "startupDelay": 10,
+    "startPage": "http://www.webpagetest.org/orange.html",
+    "directories": ["cache", "files", "app_chrome", "app_tabs", "app_textures"],
+    "type": "blackbox"
+  },
+  "Opera Beta": {
+    "package": "com.opera.browser.beta",
+    "activity": "com.opera.Opera",
+    "startupDelay": 10,
+    "startPage": "http://www.webpagetest.org/orange.html",
+    "directories": ["cache", "files", "app_chrome", "app_tabs", "app_textures"],
+    "type": "blackbox"
+  },
+  "Opera Mini": {
+    "package": "com.opera.mini.native",
+    "activity": "com.opera.mini.android.Browser",
+    "videoFlags": ["--findstart", "75", "--notification", "--renderignore", "40",
+                    "--forceblank"],
+    "directories": ["cache", "databases", "files", "app_opera", "app_webview"],
+    "startupDelay": 10,
+    "type": "blackbox"
+  },
+  "Samsung Browser": {
+    "package": "com.sec.android.app.sbrowser",
+    "activity": ".SBrowserMainActivity",
+    "videoFlags": ["--findstart", "25", "--notification"],
+    "directories": ["cache", "databases", "files", "app_sbrowser", "code_cache"],
+    "startupDelay": 10,
+    "type": "blackbox"
+  },
+  "QQ Browser": {
+    "package": "com.tencent.mtt.intl",
+    "activity": "com.tencent.mtt.SplashActivity",
+    "videoFlags": ["--findstart", "25", "--notification"],
+    "directories": ["cache", "databases", "files", "app_appcache", "app_databases", "app_databases_tmp", "app_x5_share"],
+    "startupDelay": 10,
+    "type": "blackbox"
+  },
+  "Firefox": {
+    "package": "org.mozilla.firefox",
+    "activity": ".App",
+    "videoFlags": ["--findstart", "25", "--notification"],
+    "startupDelay": 10,
+    "type": "blackbox"
+  },
+  "Firefox Beta": {
+    "package": "org.mozilla.firefox_beta",
+    "activity": ".App",
+    "videoFlags": ["--findstart", "25", "--notification"],
+    "startupDelay": 10,
+    "type": "blackbox"
+  }
+}
